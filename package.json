@@ -1,0 +1,41 @@
+{
+	"name": "animated-chart",
+	"version": "1.0.0-next.0",
+	"description": "Animated Interactive Charts for Svelte",
+	"main": "index.js",
+	"scripts": {
+		"clean": "rm -rf sites/playground/.vercel",
+		"prepublishOnly": "turbo run prepublishOnly",
+		"build": "pnpm clean && turbo run build",
+		"test": "turbo run test:ci",
+		"coverage": "turbo run coverage",
+		"lint": "turbo run lint",
+		"format": "turbo run format",
+		"prepare": "husky install",
+		"upgrade": "pnpm clean && pnpm upgrade",
+		"bump": "bumpp --no-commit --no-push package.json sites/*/package.json",
+		"bump:next": "bumpp --no-commit --no-push --preid=next package.json sites/*/package.json",
+		"release": "changeset publish",
+		"release:next": "pnpm build && changeset pre enter next && changeset && changeset version && changeset publish && changeset pre exit && pnpm bump:next",
+		"coverage:lcov": "pnpm coverage && ./merge-lcov.sh"
+	},
+	"author": "Jerry Thomas<me@jerrythomas.name",
+	"license": "MIT",
+	"workspaces": [
+		"packages/chart"
+	],
+	"devDependencies": {
+		"@changesets/cli": "^2.26.0",
+		"bumpp": "^8.2.1",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.6.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^11.2.6",
+		"prettier": "^2.8.3",
+		"turbo": "^1.7.4"
+	},
+	"lint-staged": {
+		"*.{js,svelte}": "eslint --cache --fix",
+		"*.{js,svelte,md,json}": "prettier --write"
+	}
+}
