@@ -1,0 +1,68 @@
+{
+	"name": "@rokkit/chart",
+	"version": "1.0.0-next.0",
+	"description": "Animated Charts for Svelte",
+	"main": "index.js",
+	"svelte": "src/index.js",
+	"module": "src/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"prepublishOnly": "tsc",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
+		"format": "prettier --write --plugin-search-dir=. .",
+		"test:ci": "vitest run",
+		"test:ui": "vitest --ui",
+		"test": "vitest",
+		"coverage": "vitest run --coverage",
+		"upgrade": "pnpm upgrade"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jerrythomas/animated-charts.git"
+	},
+	"keywords": [
+		"Charts",
+		"Svelte",
+		"D3",
+		"DC"
+	],
+	"author": "Jerry Thomas <me@jerrythomas.name>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jerrythomas/animated-charts/issues"
+	},
+	"homepage": "https://github.com/jerrythomas/animated-charts#readme",
+	"files": [
+		"src/**/*.js",
+		"src/**/*.svelte",
+		"!src/fixtures",
+		"!src/mocks",
+		"!src/**/*.spec.js"
+	],
+	"exports": {
+		"./src": "./src",
+		"./package.json": "./package.json",
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./src/index.js"
+		}
+	},
+	"devDependencies": {
+		"@jerrythomas/eslint-config-svelte": "^1.0.2",
+		"@jerrythomas/prettier-config": "^1.0.0",
+		"@sveltejs/vite-plugin-svelte": "^2.0.3",
+		"@testing-library/svelte": "^3.2.2",
+		"@tsconfig/svelte": "^3.0.0",
+		"@vitest/coverage-istanbul": "^0.28.5",
+		"@vitest/ui": "^0.28.5",
+		"jsdom": "^21.1.0",
+		"svelte": "^3.54.0",
+		"typescript": "^4.9.3",
+		"vite": "^4.0.0",
+		"vitest": "^0.25.3"
+	}
+}

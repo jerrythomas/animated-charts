@@ -1,0 +1,12 @@
+{
+	"extends": "@tsconfig/svelte",
+	"compilerOptions": {
+		"allowJs": true,
+		"lib": ["es2020", "dom"],
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"declarationMap": true,
+		"outDir": "dist"
+	},
+	"include": ["src/**/*.js", "src/**/*.svelte"]
+}

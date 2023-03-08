@@ -1,10 +1,9 @@
 import { sveltekit } from '@sveltejs/kit/vite'
 import { defineConfig } from 'vitest/config'
-import UnoCSS from 'unocss/vite'
-import { extractorSvelte } from '@unocss/core'
+import unocss from 'unocss/vite'
 
 export default defineConfig({
-	plugins: [UnoCSS({ extractors: [extractorSvelte] }), sveltekit()],
+	plugins: [unocss(), sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	}

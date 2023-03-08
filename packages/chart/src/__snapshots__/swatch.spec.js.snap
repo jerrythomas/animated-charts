@@ -1,0 +1,141 @@
+// Vitest Snapshot v1
+
+exports[`Swatch Store > palette > should contain a set of palettes 1`] = `
+[
+  "gold",
+  "lavender",
+  "orange",
+  "sky",
+  "violet",
+  "teal",
+  "blue",
+  "red",
+  "lime",
+  "amber",
+  "stone",
+  "zinc",
+  "emerald",
+  "pink",
+  "cyan",
+  "gray",
+]
+`;
+
+exports[`Swatch Store > patterns > pattern for A should match snapshot 1`] = `"M0 5A6 6 0 0 0 10 5"`;
+
+exports[`Swatch Store > patterns > pattern for B should match snapshot 1`] = `"M0 10L10 0"`;
+
+exports[`Swatch Store > patterns > pattern for C should match snapshot 1`] = `"M0 0A10 10 0 0 0 10 10"`;
+
+exports[`Swatch Store > patterns > pattern for D should match snapshot 1`] = `"M0 0L10 10"`;
+
+exports[`Swatch Store > patterns > pattern for E should match snapshot 1`] = `"M10 5A6 6 0 0 0 0 5"`;
+
+exports[`Swatch Store > patterns > pattern for F should match snapshot 1`] = `"M10 10A10 10 0 0 0 0 0"`;
+
+exports[`Swatch Store > patterns > pattern for G should match snapshot 1`] = `"M0 0L10 10ZM10 0L0 10Z"`;
+
+exports[`Swatch Store > patterns > pattern for H should match snapshot 1`] = `"M1 1L9 1L9 9L1 9Z"`;
+
+exports[`Swatch Store > patterns > pattern for I should match snapshot 1`] = `"M4 0L4 10M6 10L6 0M0 4L10 4M10 6L0 6"`;
+
+exports[`Swatch Store > patterns > pattern for J should match snapshot 1`] = `"M0 2L8 10M2 0L10 8M0 8L8 0M2 10L10 2"`;
+
+exports[`Swatch Store > patterns > pattern for K should match snapshot 1`] = `"M5 1A 4 4 0 0 0 9 5A4 4 0 0 0 5 9A4 4 0 0 0 1 5A4 4 0 0 0 5 1"`;
+
+exports[`Swatch Store > patterns > pattern for L should match snapshot 1`] = `"M1 3L7 9M3 1L9 7M1 7L7 1M3 9L9 3"`;
+
+exports[`Swatch Store > patterns > pattern for M should match snapshot 1`] = `"M2 2A4 4 0 0 0 8 2A4 4 0 0 0 8 8A4 4 0 0 0 2 8A4 4 0 0 0 2 2"`;
+
+exports[`Swatch Store > patterns > pattern for N should match snapshot 1`] = `"M0 0A5 5 0 0 0 10 0A5 5 0 0 0 10 10A5 5 0 0 0 0 10A5 5 0 0 0 0 0"`;
+
+exports[`Swatch Store > patterns > pattern for O should match snapshot 1`] = `"M5 2A 3 3 0 0 0 8 5A3 3 0 0 0 5 8A3 3 0 0 0 2 5A3 3 0 0 0 5 2"`;
+
+exports[`Swatch Store > patterns > pattern for P should match snapshot 1`] = `"M2 5L5 2L8 5L5 8Z"`;
+
+exports[`Swatch Store > patterns > pattern for Q should match snapshot 1`] = `"M3 5A2 2 0 0 0 7 5A2 2 0 0 0 3 5M1 5L9 5M5 1L5 9"`;
+
+exports[`Swatch Store > patterns > pattern for R should match snapshot 1`] = `"M2 8L8 2ZM1.5 3.5L3.5 1.5ZM6.5 8.5L8.5 6.5ZM0 0L10 10Z"`;
+
+exports[`Swatch Store > patterns > pattern for S should match snapshot 1`] = `"M2 8L8 2ZM1.5 3.5L3.5 1.5ZM6.5 8.5L8.5 6.5ZM2 2L8 8M1.5 6.5L3.5 8.5M6.5 1.5L8.5 3.5"`;
+
+exports[`Swatch Store > patterns > pattern for T should match snapshot 1`] = `"M5 1 A6 6 0 0 0 5 9A6 6 0 0 0 5 1M1 5A6 6 0 0 0 9 5A6 6 0 0 0 1 5"`;
+
+exports[`Swatch Store > patterns > pattern for U should match snapshot 1`] = `"M1.5 5A1 1 0 0 0 3.5 5A1 1 0 0 0 1.5 5M6.5 5A1 1 0 0 0 8.5 5A1 1 0 0 0 6.5 5M5 1.5A1 1 0 0 0 5 3.5A1 1 0 0 0 5 1.5M5 6.5A1 1 0 0 0 5 8.5A1 1 0 0 0 5 6.5"`;
+
+exports[`Swatch Store > patterns > pattern for V should match snapshot 1`] = `"M1.5 2.5A1 1 0 0 0 3.5 2.5A1 1 0 0 0 1.5 2.5M6.5 2.5A1 1 0 0 0 8.5 2.5A1 1 0 0 0 6.5 2.5M2.5 6.5A1 1 0 0 0 2.5 8.5A1 1 0 0 0 2.5 6.5M7.5 6.5A1 1 0 0 0 7.5 8.5A1 1 0 0 0 7.5 6.5M3.5 5A1 1 0 0 0 6.5 5A1 1 0 0 0 3.5 5"`;
+
+exports[`Swatch Store > patterns > pattern for W should match snapshot 1`] = `"M5 0L6 4L10 5L6 6L5 10L4 6L0 5L4 4ZM2 1V3M1 2H3M8 9V7M9 8H7"`;
+
+exports[`Swatch Store > patterns > pattern for X should match snapshot 1`] = `"M5 2L2.5 9L8.8 4.6L1.2 4.6L7.5 9Z"`;
+
+exports[`Swatch Store > patterns > pattern for Y should match snapshot 1`] = `"M0 5A5 5 0 0 0 5 0M5 10A5 5 0 0 0 0 5M5 10A5 5 0 0 0 5 0"`;
+
+exports[`Swatch Store > patterns > pattern for Z should match snapshot 1`] = `"M0 0L10 10M5 0L10 5M0 5 L5 10"`;
+
+exports[`Swatch Store > patterns > pattern for Z1 should match snapshot 1`] = `"M0 0L10 10M3 0L10 7M0 7 L3 10"`;
+
+exports[`Swatch Store > symbols > function for circle should generate different paths for different sizes 1`] = `"M0 5A5 5 0 0 0 10 5A5 5 0 0 0 0 5"`;
+
+exports[`Swatch Store > symbols > function for circle should generate different paths for different sizes 2`] = `"M0 10A10 10 0 0 0 20 10A10 10 0 0 0 0 10"`;
+
+exports[`Swatch Store > symbols > function for crossboats should generate different paths for different sizes 1`] = `"M0 5A6 4 0 0 0 10 5A6 4 0 0 0 0 5M5 0A4 6 0 0 0 5 10A4 6 0 0 0 5 0"`;
+
+exports[`Swatch Store > symbols > function for crossboats should generate different paths for different sizes 2`] = `"M0 10A12 8 0 0 0 20 10A12 8 0 0 0 0 10M10 0A8 12 0 0 0 10 20A8 12 0 0 0 10 0"`;
+
+exports[`Swatch Store > symbols > function for crosshair should generate different paths for different sizes 1`] = `"M2 5A3 3 0 0 0 8 5A3 3 0 0 0 2 5M0 5L10 5M5 0L5 10"`;
+
+exports[`Swatch Store > symbols > function for crosshair should generate different paths for different sizes 2`] = `"M4 10A6 6 0 0 0 16 10A6 6 0 0 0 4 10M0 10L20 10M10 0L10 20"`;
+
+exports[`Swatch Store > symbols > function for curvedrhombus should generate different paths for different sizes 1`] = `"M1 1A5 5 0 0 0 9 1A5 5 0 0 0 9 9A5 5 0 0 0 1 9A5 5 0 0 0 1 1"`;
+
+exports[`Swatch Store > symbols > function for curvedrhombus should generate different paths for different sizes 2`] = `"M2 2A10 10 0 0 0 18 2A10 10 0 0 0 18 18A10 10 0 0 0 2 18A10 10 0 0 0 2 2"`;
+
+exports[`Swatch Store > symbols > function for diamond should generate different paths for different sizes 1`] = `"M5 0A6 6 0 0 0 10 5A6 6 0 0 0 5 10A6 6 0 0 0 0 5A6 6 0 0 0 5 0"`;
+
+exports[`Swatch Store > symbols > function for diamond should generate different paths for different sizes 2`] = `"M10 0A12 12 0 0 0 20 10A12 12 0 0 0 10 20A12 12 0 0 0 0 10A12 12 0 0 0 10 0"`;
+
+exports[`Swatch Store > symbols > function for fourflags should generate different paths for different sizes 1`] = `"M5 3A2 1 0 0 0 5 1L5 9M5 7A2 1 0 0 0 5 9M3 5A1 2 0 0 0 1 5L9 5M7 5A1 2 0 0 0 9 5"`;
+
+exports[`Swatch Store > symbols > function for fourflags should generate different paths for different sizes 2`] = `"M10 6A4 2 0 0 0 10 2L10 18M10 14A4 2 0 0 0 10 18M6 10A2 4 0 0 0 2 10L18 10M14 10A2 4 0 0 0 18 10"`;
+
+exports[`Swatch Store > symbols > function for heart should generate different paths for different sizes 1`] = `"M9 5A0.8 0.8 0 0 0 5 2A0.8 0.8 0 0 0 1 5L5 9L9 5"`;
+
+exports[`Swatch Store > symbols > function for heart should generate different paths for different sizes 2`] = `"M18 10A1.6 1.6 0 0 0 10 4A1.6 1.6 0 0 0 2 10L10 18L18 10"`;
+
+exports[`Swatch Store > symbols > function for rhombus should generate different paths for different sizes 1`] = `"M5 0L10 5L5 10L0 5Z"`;
+
+exports[`Swatch Store > symbols > function for rhombus should generate different paths for different sizes 2`] = `"M10 0L20 10L10 20L0 10Z"`;
+
+exports[`Swatch Store > symbols > function for shurikan should generate different paths for different sizes 1`] = `"M3 1L5 0L7 1A 0.5 0.5 0 0 0 9 3.5L10 5L9 7A 0.5 0.5 0 0 0 7 9L5 10L3 9A0.5 0.5 0 0 0 1 7L0 5L1 3A0.5 0.5 0 0 0 3 1M4 5A1 1 0 0 0 6 5A1 1 0 0 0 4 5"`;
+
+exports[`Swatch Store > symbols > function for shurikan should generate different paths for different sizes 2`] = `"M6 2L10 0L14 2A 1 1 0 0 0 18 7L20 10L18 14A 1 1 0 0 0 14 18L10 20L6 18A1 1 0 0 0 2 14L0 10L2 6A1 1 0 0 0 6 2M8 10A2 2 0 0 0 12 10A2 2 0 0 0 8 10"`;
+
+exports[`Swatch Store > symbols > function for square should generate different paths for different sizes 1`] = `"M1 0A1 1 0 0 0 0 1V9A1 1 0 0 0 1 10H9A1 1 0 0 0 10 9V1A1 1 0 0 0 9 0Z"`;
+
+exports[`Swatch Store > symbols > function for square should generate different paths for different sizes 2`] = `"M2 0A2 2 0 0 0 0 2V18A2 2 0 0 0 2 20H18A2 2 0 0 0 20 18V2A2 2 0 0 0 18 0Z"`;
+
+exports[`Swatch Store > symbols > function for star should generate different paths for different sizes 1`] = `"M5 0.5L6.06 3.5999999999999996L10 3.5999999999999996L6.8500000000000005 5.8999999999999995L8.100000000000001 9.5L5 7.25L1.9 9.5L3.15 5.8999999999999995L0 3.5999999999999996L3.9400000000000004 3.5999999999999996Z"`;
+
+exports[`Swatch Store > symbols > function for star should generate different paths for different sizes 2`] = `"M10 1L12.12 7.199999999999999L20 7.199999999999999L13.700000000000001 11.799999999999999L16.200000000000003 19L10 14.5L3.8 19L6.3 11.799999999999999L0 7.199999999999999L7.880000000000001 7.199999999999999Z"`;
+
+exports[`Swatch Store > symbols > function for triangle should generate different paths for different sizes 1`] = `"M5 0.866L0 9.234L10 9.234Z"`;
+
+exports[`Swatch Store > symbols > function for triangle should generate different paths for different sizes 2`] = `"M10 1.732L0 18.468L20 18.468Z"`;
+
+exports[`Swatch Store > symbols > should contain a set of symbols 1`] = `
+[
+  "square",
+  "circle",
+  "diamond",
+  "triangle",
+  "rhombus",
+  "star",
+  "heart",
+  "shurikan",
+  "crosshair",
+  "crossboats",
+  "curvedrhombus",
+  "fourflags",
+]
+`;

@@ -1,0 +1,5 @@
+@import '@unocss/reset/tailwind.css';
+
+body, body > div {
+	@apply h-screen w-screen p-0 flex flex-col;
+}
